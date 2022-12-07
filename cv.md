@@ -22,10 +22,10 @@ from codewars
  >return b;  
  >}</sub> 
   
- ### **Ed project**  
+### **Ed project**  
  >[COFFEE HOUSE](https://codepen.io/truffie/pen/vYjwbjw)  
  
- ### **Education**
+### **Education**
 first of all i'm a student in [IBI](ibispb.ru). Now, because of the relocation, I have taken academic leave.  
 But i keep learning.  
 I finished some courses on [stepik](https://stepik.org/learn)  
