@@ -1,0 +1,305 @@
+*,
+::before,
+::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+   background-image: url(https://i.stack.imgur.com/FiRFI.png);
+   backdrop-filter: blur(1px);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+
+.wrapper {
+   background-color: #fff;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid;
+   border-top: 0px;
+   border-bottom: 5px solid;
+
+}
+
+header {
+   position: sticky;
+   top: 0;
+}
+
+
+li a {
+   text-transform: uppercase;
+
+}
+
+a {
+
+   color: black
+}
+
+h2 {
+   font-size: 3vw;
+   display: inline-block;
+   color: rgb(219, 219, 219);
+}
+
+
+
+
+section ul,
+section pre {
+
+
+   margin-left: 10%;
+   margin-right: 10%;
+   border: 5px double;
+   border-radius: 4px;
+   height: 60%;
+   display: block;
+   font-size: 1.5vw;
+   padding: 3% 5%;
+}
+
+
+
+section ul li {
+   line-height: 50px;
+   font-style: italic;
+   list-style-type: disc;
+}
+
+
+
+section h2 {
+   text-align: center;
+   display: block;
+   line-height: 100px;
+}
+
+footer,
+header {
+
+   background-color: rgba(0, 0, 0, 0.784);
+   height: 80px;
+
+
+}
+
+footer {
+
+   margin-top: 70px;
+}
+
+.nav {
+   width: 100%;
+   display: flex;
+   height: 70px;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+
+
+.nav__item {
+   display: inline-block;
+   padding: 0px 48px;
+
+}
+
+.nav__item a:hover {
+   color: rgba(255, 255, 255, 0.245);
+}
+
+.nav__item a {
+
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   text-shadow: 1px 5px 25px;
+   font-size: 125%;
+}
+
+.info__top {
+   display: flex;
+}
+
+.info__card {
+
+   padding-top: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 25%;
+   background-color: rgba(36, 30, 30, 0.815);
+
+}
+
+.info__avatar img {
+   max-width: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+   border: 15px double;
+   opacity: 0.85;
+}
+
+.info__contacts {
+   max-width: 100%;
+   width: 350px;
+   min-width: 40%;
+}
+
+.info__contacts h2 {
+   display: inline-block;
+   min-width: 50%;
+   padding-left: 22%;
+
+}
+
+#contacts {
+   max-width: 100%;
+
+
+}
+
+.info__card ul,
+.info__card a {
+   display: inline-block;
+   border: none;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.info__contacts ul {
+   background-color: none;
+}
+
+.info__contacts ul li {
+
+   padding-left: 50%;
+   list-style-type: none;
+}
+
+.info__contacts ul li a {
+   max-width: 100%;
+   color: rgb(219, 219, 219);
+   display: inline-block;
+   padding: 10px 0px;
+   font-size: 25px;
+
+}
+
+.info__contacts ul li:nth-child(1) {
+   background: url(https://www.freepnglogos.com/uploads/discord-logo-png/discord-icon-flat-style-available-svg-png-eps-10.png) no-repeat 0 4px;
+   background-size: 30%;
+   background-position: 0px 50%;
+}
+
+.info__contacts ul li:nth-child(2) {
+   background: url(https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png) no-repeat 0 4px;
+   background-size: 30%;
+   background-position: 0px 50%;
+}
+
+.info__contacts ul li:nth-child(3) {
+   background: url(https://cdn-icons-png.flaticon.com/512/25/25231.png) no-repeat 0 4px;
+   background-size: 30%;
+   background-position: 0% 50%;
+}
+
+.info__card {
+   border: 5px solid;
+   border-left: 0px;
+   border-top: 0px;
+}
+
+.info__about {
+   width: 100%;
+   display: inline-block;
+   font-size: 2vw;
+}
+
+.info__about ul {
+   background-color: rgba(128, 128, 128, 0.206);
+}
+
+div.info__bottom {
+   margin-left: 360px;
+}
+
+.info__skills h2 {
+   padding: 0% 20%;
+
+}
+
+.info__skills ul {
+   background-color: rgba(128, 128, 128, 0.206);
+   list-style-type: none;
+
+}
+
+.info__skills li {
+   text-transform: uppercase;
+}
+
+
+
+.info__code pre {
+   background-color: rgba(128, 128, 128, 0.206);
+}
+
+.info__code a {
+   text-transform: uppercase;
+}
+
+.info__link-wrap {
+
+   border-bottom: 1px solid;
+   padding-bottom: 20px;
+}
+
+.info__code-wrap {
+   background-color: rgba(128, 128, 128, 0.206);
+}
+
+.info__code code {
+   font-size: 1vw;
+}
+
+.info__projects ul {
+   background-color: rgba(128, 128, 128, 0.206);
+
+}
+
+.info__education ul {
+   background-color: rgba(128, 128, 128, 0.206);
+}
+
+.info__languages ul {
+   background-color: rgba(128, 128, 128, 0.206);
+
+}
+
+footer {
+   text-transform: uppercase;
+   font-size: 1.5em;
+   color: #fff;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center
+}
+
+footer img {
+   padding-top: 5px;
+   width: 70px;
+   height: 70px;
+}
